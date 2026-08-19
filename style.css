@@ -37,6 +37,18 @@ body {
   
 }
 
+button {
+  background-color: light-grey;
+  color: #007bff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.active-color {
+  background-color: rgb(0, 229, 255);
+}
 
 
 .card {
@@ -112,4 +124,12 @@ margin-top: 25px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+
+.background-body {
+  background-color: white;
+}
+.background-body.background-body-active {
+  background-color:bisque;
 }

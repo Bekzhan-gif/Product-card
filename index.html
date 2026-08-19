@@ -6,10 +6,15 @@
   <title>Product card</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="background-body">
   <main class="main">
     <div class="container">
+      <button class="change-color-background">Сменить цвет фона</button>
       <h1 class="title">Выбери свой продукт</h1>
+      <button id="change-color-first-card">сменить цвет первой карточки</button>
+      <button id="change-color-all-card">сменить цвет всех карточек</button>
+      <button id="open-google">открыть страницу Google.com</button>
+      <button id="output-console-log">вывести сообшение в консоль лог</button>
       <ul class="products clear-list">
         <li class="products__item card">
           <img src="assets/mousse.jpg" alt="" class="card__image">
@@ -104,5 +109,6 @@
       </ul>
     </div>
   </main>
+  <script src="main.js"></script>
 </body>
 </html>
